@@ -93,34 +93,34 @@ RUTORRENT_PLUGINS="$RUTORRENT_PLUGINS tracklabels"
 RUTORRENT_PLUGINS="$RUTORRENT_PLUGINS trafic"
 RUTORRENT_PLUGINS="$RUTORRENT_PLUGINS unpack"
 
-# For building rtorrent
-LIBCURL_NAME="curl-7.39.0"
+# For building rtorent
+LIBCURL_NAME="curl-7.45.0"
 LIBCURL_URL="http://curl.haxx.se/download/$LIBCURL_NAME.tar.gz"
-SIGCPP20_NAME="libsigc++-2.4.0"
-SIGCPP20_URL="http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.4/$SIGCPP20_NAME.tar.gz"
+SIGCPP20_NAME="libsigc++-2.6.2"
+SIGCPP20_URL="http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.6/$SIGCPP20_NAME.tar.gz"
 XMLRPC_SVN_DIR="https://svn.code.sf.net/p/xmlrpc-c/code/stable"
-LIBTORRENT_VERSION="0.13.4"
+LIBTORRENT_VERSION="0.13.6"
 LIBTORRENT_NAME="libtorrent-$LIBTORRENT_VERSION"
-LIBTORRENT_URL="http://libtorrent.rakshasa.no/downloads/$LIBTORRENT_NAME.tar.gz"
+LIBTORRENT_URL="http://rtorrent.net/downloads/$LIBTORRENT_NAME.tar.gz"
 LIBTORRENT_URL2="http://sourceforge.net/projects/autodl-irssi/files/inst-files/$LIBTORRENT_NAME.tar.gz/download"
-RTORRENT_VERSION="0.9.4"
+RTORRENT_VERSION="0.9.6"
 RTORRENT_NAME="rtorrent-$RTORRENT_VERSION"
-RTORRENT_URL="http://libtorrent.rakshasa.no/downloads/$RTORRENT_NAME.tar.gz"
+RTORRENT_URL="http://rtorrent.net/downloads/$RTORRENT_NAME.tar.gz"
 RTORRENT_URL2="http://sourceforge.net/projects/autodl-irssi/files/inst-files/$RTORRENT_NAME.tar.gz/download"
 
 HTPASSWD_PY_SCRIPT_URL="http://trac.edgewall.org/export/10433/trunk/contrib/htpasswd.py"
 HTPASSWD_PY_SCRIPT_URL2="http://sourceforge.net/projects/autodl-irssi/files/inst-files/htpasswd.py/download"
 
-NGINX_NAME="nginx-1.7.7"
+NGINX_NAME="nginx-1.9.7"
 NGINX_URL="http://nginx.org/download/$NGINX_NAME.tar.gz"
 
-LIGHTTPD_NAME="lighttpd-1.4.35"
+LIGHTTPD_NAME="lighttpd-1.4.37"
 LIGHTTPD_URL="http://download.lighttpd.net/lighttpd/releases-1.4.x/$LIGHTTPD_NAME.tar.gz"
 
 MOD_SCGI_VERSION="1.14"
 MOD_SCGI_URL="http://python.ca/scgi/releases/scgi-$MOD_SCGI_VERSION.tar.gz"
 
-UNRAR_VERSION="4.0.7"
+UNRAR_VERSION="5.3.7"
 UNRAR_URL="http://www.rarlab.com/rar/unrarsrc-$UNRAR_VERSION.tar.gz"
 
 # Dirs relative to user's home directory
